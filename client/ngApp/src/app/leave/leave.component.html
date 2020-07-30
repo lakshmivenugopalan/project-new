@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <form role="form">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6">
+         <label class="control-label">NAME</label>
+              <input type="text" [(ngModel)]="name"class="form-control"> 
+                        </div>
+                        <div class="col-sm-6">
+           <label class="control-label">LEAVE BALACE</label>
+         <input type="text" [(ngModel)]="leaveBalance"class="form-control">
+                        </div>
+                   </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6">
+                  <label class="control-label">PHONE</label>
+                  <input type="tel"[(ngModel)]="phone" class="form-control">
+                        </div></div></div>
+                 <div class="form-group">
+                 <div class="row">
+                     <div class="col-sm-12">
+             <label class="control-label">LEAVE APPLICATION</label>
+         <textarea id="message" class="form-control" rows="5" [(ngModel)]="leaveApplication"name="message"></textarea>
+                     </div>
+                 </div>
+             </div> 
+             <div class="form-group">
+                 <div class="row">
+                     <div class="col-sm-12">
+          <button class="btn btn-primary pull-left">SEND</button>
+                     </div>
+                 </div>
+             </div>
+        </form>
+
+
+    </div>
+        <div class="col-sm-3">
+            
+        </div>
+    </div>			
+</div>
